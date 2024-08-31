@@ -20,6 +20,13 @@ npm install dotenv
 npm install chalk@4
 ```
 
+
+```bash
+nano .env
+```
+
+ISI PK MU
+
 jalana bot`e
 ```bash
 node call.js
