@@ -7,7 +7,7 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function sendTransaction() {
     // Hex data yang diberikan
-    const hexData = '';
+    const hexData = '0x56591d5962737370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000+ MASUKIN ADDRESSMU TANPA 0X +00000000000000000000000000000000000000000000000000005db134d0e8f2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c6bf52634000';
 
     // Siapkan provider dan wallet
     const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
@@ -52,7 +52,7 @@ async function sendTransaction() {
             console.error(`${chalk.red('   Failed | Detail :')} \n${error.message}\n`);
         }
 
-        // Jeda 5 detik
+        // Jeda 10 detik
         await sleep(10000);
         transactionCount++; // Increment nomor transaksi
     }
