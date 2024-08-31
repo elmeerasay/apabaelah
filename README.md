@@ -1,5 +1,4 @@
-
-khusus arbitrum sepolia
+KHUSUS ARB SEPOLIA
 
 ```bash
 git clone https://github.com/elmeerasay/apabaelah.git
@@ -19,16 +18,6 @@ npm install dotenv
 
 ```bash
 npm install chalk@4
-```
-
-```bash
-nano call.js
-```
-
-ubah baris no 10 pada bagian Ganti dengan addressmu tanpa awalan 0x { tanda petiknya jangan dihapus } contoh '3E096fdf89b27306239D7290cced3A381C535545'
-
-```bash
-CTRL + S 
 ```
 
 jalana bot`e
