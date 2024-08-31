@@ -30,7 +30,7 @@ async function sendTransaction() {
 
     // Siapkan transaksi tanpa gas limit atau gas price, karena akan dihitung otomatis
     const tx = {
-        to: '0x8D86c3573928CE125f9b2df59918c383aa2B514D',  // Gantikan dengan alamat tujuan
+        to: '0x1D5FD4ed9bDdCCF5A74718B556E9d15743cB26A2',  // Gantikan dengan alamat tujuan
         value: ethers.utils.parseEther('0.0005'),        // Nilai dalam ETH
         data: hexData,                                    // Data hex yang diberikan
     };
